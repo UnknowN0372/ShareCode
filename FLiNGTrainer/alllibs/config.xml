@@ -1,0 +1,152 @@
+﻿<!-- 3dm的资源文件目录 在你的系统盘 program文件夹下3dm_game_files中。-->
+<?xml version="1.0" encoding="utf-8"?>
+<config_3dm link = "http://dl.3dmgame.com/201211/28051.html">
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 1.1（与IIS不兼容）" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "23.1 MB" link = "http://xthj.3dmgame.com/dotnetfx.exe" md5 = "52456AC39BBB4640930D155C15160556" recommend = "0" depend="">
+    <!-- pic 是运行库图片名字 其余属性是运行库名字 说明 大小 下载链接 md5-->
+    <Vars varRun = "/q:a /c:&quot;install /l /q&quot;" var1 = "Microsoft .NET Framework 1.1"/>
+    <!-- 静默安装参数  卸载信息中的识别标识-->
+    <GUID id1="{CB2F7EDD-9D1F-43C1-90FC-4F52EAE172A1}"/>
+    <!-- 卸载guid标识-->
+  </File_netframe>
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 3.5 sp1(含2.0/3.0)" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "231 MB" link = "http://xthj.3dmgame.com/dotnetfx35.exe" md5 = "269F314B87E6222A20E5F745B6B89783" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 3.5 SP1" var2="v3.5"/>
+    <GUID id1="{CE2CDD62-0124-36CA-84D3-9F4DCF5C5BD9}.KB953595"/>
+  </File_netframe>
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 4.0" description="注意：xp系统可能会失败，请参考教程“windows xp系统安装.net4.0”后进行安装" size = "48.1 MB" link = "http://xthj.3dmgame.com/dotNetFx40_Full_x86_x64.exe" md5 = "251743DFD3FDA414570524BAC9E55381" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 4 Client Profile" var2="v4.0"/>
+    <GUID id1="{3C3901C5-3455-3E0A-A214-0B093A5070A6}"/>
+  </File_netframe>
+  <!--shupb-->
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 4.5.2" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "66.7 MB" link = "http://xthj.3dmgame.com/dotnetfx4.5.2_x86_x64.exe" md5 = "EE01FC4110C73A8E5EFC7CABDA0F5FF7" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 4.5.2" var2="v4.5.2"/>                                                                                                                                                                                                                                                                  
+    <GUID id1="{6414876250E69FF3395387C6C7F05BEB}"/>
+  </File_netframe>
+  <!--shupb-->
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 4.6.2(含4.0/4.5.x/4.6)" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "59.1 MB" link = "http://xthj.3dmgame.com/NDP462-KB3151800-x86-x64-AllOS-ENU.exe" md5 = "9A5D647EE710AF2B1AEDE329C40BBE1A" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 4.6.2" var2="v4.6.2"/>
+    <GUID id1="{63DF5C4B-E3BF-3346-A033-C57B22F44C9E}"/>
+  </File_netframe>
+  <!--shupb-->
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 4.7" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "80.0 MB" link = "http://xthj.3dmgame.com/dotnetfx4.7_x86_x64.exe" md5 = "87450CFA175585B23A76BBD7052EE66B" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 4.7" var2="v4.7"/>
+    <GUID id1="{E8EBCC90469BFE03EA485673BA14799F}"/>
+  </File_netframe>
+  <File_netframe pic = ".net_frame.jpg" name = "Microsoft .NET Framework 4.8" description="应用程序正常初始化(0xc000*****)失败；应用程序错误，内存不能为written或read;" size = "136 MB" link = "http://xthj.3dmgame.com/dotnetfx4.8_x86_x64.exe" md5 = "3E66D3D88734D3A8DC115BC8A5D54C77" recommend = "1" depend="">
+    <Vars varRun = "/q /norestart" var1 = "Microsoft .NET Framework 4.8" var2="v4.8"/>
+    <GUID id1="{50e73eb2-10f7-4457-954a-6b06fccc7d04}"/>
+  </File_netframe>
+  <!--shupb-->
+  
+  <File_vclib pic = "vb6_lib.jpg" name = "VB6" description = "是一种由微软公司开发的包含协助开发环境的事件驱动编程语言" size = "0.98 MB" link = "http://xthj.3dmgame.com/vbrun60sp6.exe" md5 = "899185DAA1572EC47DDAEFA1B9766136" recommend = "0" depend="">
+    <Vars varRun = "/q" var1 = " "/>
+    <GUID id1="{D5DE8D20-5BB8-11D1-A1E3-00A0C90F2731}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2005run_lib_pic.jpg" name = "Microsoft Visual C++ 2005 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "2.56 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2005.exe" md5 = "4E33C98627EA50D3E44CD62D323345D6" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2005 Redistributable - x86"/>
+    <GUID id1 = "{A49F249F-0C91-497F-86DF-B2585E8E76B7}" id2="{7299052B-02A4-4627-81F2-1818DA5D550D}" id3="{837B34E3-7C30-493C-8F6A-2B0F04E2912C}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2005run_lib_pic.jpg" name = "Microsoft Visual C++ 2005 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "4.08 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2005.exe" md5 = "524DA2FB61A1361E77704E9466BCD74E" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2005 Redistributable - x64"/>
+    <GUID id1="{6E8E85E8-CE4B-4FF5-91F7-04999C9FAE6A}" id2="{071C9B48-7C32-4621-A0AC-3F809523288F}" id3="{6CE5BAE9-D3CA-4B99-891A-1DC6C118A5FC}" id4="{03ED71EA-F531-4927-AABD-1C31BCE8E187}" id5="0F8FB34E-675E-42ED-850B-29D98C2ECE08" id6="{85025851-A784-46D8-950D-05CB3CA43A13}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2008run_lib_pic.jpg" name = "Microsoft Visual C++ 2008 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "1.73 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2008.exe" md5 = "B936F0F378B9A35489353E878154E899" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2008 Redistributable - x86"/>
+    <GUID id1="{9A25302D-30C0-39D9-BD6F-21E6EC160475}" id2=" {1F1C2DFC-2D24-3E06-BCB8-725134ADF989}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2008run_lib_pic.jpg" name = "Microsoft Visual C++ 2008 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "2.26 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2008.exe" md5 = "A31DC1A74F1DEE5CAF63AEC8EBB5FE20" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2008 Redistributable - x64"/>
+    <GUID id1="{8220EEFE-38CD-377E-8595-13398D740ACE}" id2="{4B6C7001-C7D6-3710-913E-5BC23FCE91E6}" id3="{5827ECE1-AEB0-328E-B813-6FC68622C1F9}" id4="{977AD349-C2A8-39DD-9273-285C08987C7B}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2010run_lib_pic.jpg" name = "Microsoft Visual C++ 2010 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "4.83 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2010.exe" md5 = "B88228D5FEF4B6DC019D69D4471F23EC" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2010  x86 Redistributable"/>
+    <GUID id1="{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}" id2="{196BB40D-1578-3D01-B289-BEFC77A11A1E}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2010run_lib_pic.jpg" name = "Microsoft Visual C++ 2010 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "5.45 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2010.exe" md5 = "630D75210B325A280C3352F879297ED5" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2010  x64 Redistributable "/>
+    <GUID id1="{F0C3E5D1-1ADE-321E-8167-68EF0DE699A5}" id2="{DA5E371C-6333-3D8A-93A4-6FD5B20BCC6E}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2012run_lib_pic.jpg" name = "Microsoft Visual C++ 2012 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "6.25 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2012.exe" md5 = "7F52A19ECAF7DB3C163DD164BE3E592E" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2012 Redistributable (x86)"/>
+    <GUID id1="{6C772996-BFF3-3C8C-860B-B3D48FF05D65}" id2="{33d1fd90-4274-48a1-9bc1-97e33d9c2d6f}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2012run_lib_pic.jpg" name = "Microsoft Visual C++ 2012 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "6.85 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2012.exe" md5 = "3C03562B5AF9ED347614053D459D7778" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2012 Redistributable (x64)"/>
+    <GUID id1="ca67548a-5ebe-413a-b50c-4b9ceb6d66c6}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2013run_lib_pic.jpg" name = "Microsoft Visual C++ 2013 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "6.20 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2013.exe" md5 = "0FC525B6B7B96A87523DAA7A0013C69D" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2013 Redistributable (x86)"/>
+    <GUID id1="{f65db027-aff3-4070-886a-0d87064aabb1}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2013run_lib_pic.jpg" name = "Microsoft Visual C++ 2013 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "6.86 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2013.exe" md5 = "96B61B8E069832E6B809F24EA74567BA" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2013 Redistributable (x64)"/>
+    <GUID id1=""/>
+  </File_vclib>
+  <File_vclib pic = "vc2015run_lib_pic.jpg" name = "Microsoft Visual C++ 2015 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "13.3 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2015.exe" md5 = "476CC253800D5EE8577F541E17A90476" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2015 Redistributable (x86)"/>
+    <GUID id1="{2e085fd2-a3e4-4b39-8e10-6b8d35f55244}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2015run_lib_pic.jpg" name = "Microsoft Visual C++ 2015 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "14.0 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2015.exe" md5 = "883C499D04C145A69622F7658E353265" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2015 Redistributable (x64)"/>
+    <GUID id1="{dab68466-3a7d-41a8-a5cf-415e3ff8ef71}"/>
+  </File_vclib>
+    <!--shupb-->
+  <File_vclib pic = "vc2017run_lib_pic.jpg" name = "Microsoft Visual C++ 2017 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "13.7 MB" link = "http://xthj.3dmgame.com/vc_redist.x86_2017.exe" md5 = "4C34A474900344483AAB8C0DB7ED884F" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2017 Redistributable (x86)"/>
+    <GUID id1="{c239cea1-d49e-4e16-8e87-8c055765f7ec}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2017run_lib_pic.jpg" name = "Microsoft Visual C++ 2017 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "14.5 MB" link = "http://xthj.3dmgame.com/vc_redist.x64_2017.exe" md5 = "6B83B62D7FD5354074BDFFC2DD7DD6C2" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2017 Redistributable (x64)"/>
+    <GUID id1="{f1e7e313-06df-4c56-96a9-99fdfd149c51}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2019run_lib_pic.jpg" name = "Microsoft Visual C++ 2019 sp1(32位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "13.7 MB" link = "http://xthj.3dmgame.com/vcredist_x86_2019.exe" md5 = "A0A3ADF7D82BC07D8C33471EA9B8D4F6" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2015-2019 Redistributable (x86)"/>
+    <GUID id1="{8c3f057e-d6a6-4338-ac6a-f1c795a6577b}"/>
+  </File_vclib>
+  <File_vclib pic = "vc2019run_lib_pic.jpg" name = "Microsoft Visual C++ 2019 sp1(64位)" description = "各种未知错误如“配置不正确”或其他错误；没有找到 MsvcpXXX.DLL" size = "14.4 MB" link = "http://xthj.3dmgame.com/vcredist_x64_2019.exe" md5 = "EDAF52B1F182D245952EB68CC7D52A3B" recommend = "1" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Visual C++ 2015-2019 Redistributable (x64)"/>
+    <GUID id1="{7b178cda-9740-4701-a92a-f168d213b343}"/>
+  </File_vclib>
+  <!--shupb-->
+  <File_vclib pic = "AppLocale.jpg" name = "Microsoft AppLocale" description = "解决游戏乱码工具" size = "1.23 MB" link = "http://xthj.3dmgame.com/apploc1.3.3.31.1393985731.msi" md5 = "168A52D36B26CA8A9FD1EC85E93C2511" recommend = "1" depend="">
+    <Vars varRun = "/qn" var1 = "Microsoft AppLocale"/>
+    <GUID id1="{394BE3D9-7F57-4638-A8D1-1D88671913B7}"/>
+  </File_vclib>
+  <File_vclib pic = "directx9-c.jpeg" name = "DirectX9" description = "缺少d3dx9_xx.dll:如d3dx9_40\\41;" size = "96.0 MB" link = "http://xthj.3dmgame.com/directx_9.29.952.3111.3613753789.exe" md5 = "01590DC17ADDE6FDFAC883903C6A0CB9" recommend = "1" depend="">
+    <Vars varRun = "/S" var1 = " "/>
+    <GUID id1="{03219e78-5bc3-44d1-b92e-f63d89cc6526}" id2 = "{0aa000aa-f404-11d9-bd7a-0010dc4f8f81}" />
+  </File_vclib>
+  <File_vclib pic = "NVIDIA_PhysX.jpeg" name = "NVIDIA PhysX 系统软件 9.15.0428" description = "NVIDIA单独提供了PhysX物理加速驱动，不更新显卡驱动而又能用最新PhysX物理加速驱动" size = "22.4 MB" link ="http://xthj.3dmgame.com/PhysX-9.15.0428-SystemSoftware.exe" md5 = "1868B5900BA593264ADCBC9960AAB7D0" recommend = "1" depend="">
+    <Vars varRun = "-s" var1 = "NVIDIA PhysX"/>
+    <GUID id1="{B2FE1952-0186-46C3-BAEC-A80AA35AC5B8}"/>
+  </File_vclib>
+  <File_vclib pic = "xml6_parse.jpg" name = "XML6" description = "可扩展标记语言" size = "1.46 MB" link = "http://xthj.3dmgame.com/msxml6.msi" md5 = "A13BFF305EC8AB7AB89C2A1758C55CB9" recommend = "1" depend="">
+    <Vars varRun = "/qn" var1 = "MSXML 6.0 Parser"/>
+    <GUID id1="{AEB9948B-4FF2-47C9-990E-47014492A0FE}"/>
+	<CLSID id1="{2933BF90-7B36-11D2-B20E-00C04F983E60}"/>
+  </File_vclib>
+  <File_vclib pic = "openal.jpeg" name = "OpenAL" description = "OpenAL（Open Audio Library）是自由软件界的跨平台音效API" size = "792 KB" link = "http://xthj.3dmgame.com/oalinst.exe" md5 = "694F54BD227916B89FC3EB1DB53F0685" recommend = "1" depend="">
+    <Vars varRun = "-s" var1 = "OpenAL"/>
+    <GUID id1=""/>
+  </File_vclib>
+  <File_vclib pic = "Rapture3D.jpeg" name = "Rapture3D 2.5.1" description = " rapture3d是一个类似于音效插件的玩意儿，能提供更好的声音效果" size = "11.3 MB" link = "http://xthj.3dmgame.com/rapture3d_2.5.1game.1403834307.exe" md5 = "5FFE8217E6453618E945A21AC5A600B4" recommend = "1" depend="">
+    <Vars varRun = "/Silent" var1 = "Rapture3D 2.5.1 Game"/>
+    <GUID id1="{D2FCA41E-AC01-4DCD-B3A7-DC9E32363065}}_is1"/>
+  </File_vclib>
+
+  <File_vclib pic = "Microsoft_XNA_Framework.jpeg" name = "Microsoft XNA Framework 2.0（需DirectX 9.0c）" description="微软的游戏开发框架分发给用户的支持包。安装了这一软件包后才能运行XNA工作室开发的游戏。" size = "6.86 MB" link ="http://xthj.3dmgame.com/xnafx20_redist.msi" md5 = "15EB68899A2396F043D2404987A0C0F7"  recommend = "1" depend="directx_9.29.952.3111.3613753789.exe">
+    <Vars varRun = "/qn" var1 = "Microsoft XNA Framework Redistributable 2.0"/>
+    <GUID id1="{245F6C7A-0C22-4DE0-8202-2AAA620A1D3A}"/>
+  </File_vclib>
+  <File_vclib pic = "Microsoft_XNA_Framework.jpeg" name = "Microsoft XNA Framework 3.1（需.NET 2.0）" description="微软的游戏开发框架分发给用户的支持包。安装了这一软件包后才能运行XNA工作室开发的游戏。" size = "7.31 MB" link ="http://xthj.3dmgame.com/xnafx31_redist.msi" md5 = "52873853E4981D5B9147C93472BB4EE7"  recommend = "1" depend="dotnetfx35.exe">
+    <Vars varRun = "/qn" var1 = "Microsoft XNA Framework Redistributable 3.0"/>
+    <GUID id1="{19BFDA5D-1FE2-4F25-97F9-1A79DD04EE20}"/>
+  </File_vclib>
+  <File_vclib pic = "Microsoft_XNA_Framework.jpeg" name = "Microsoft XNA Framework 4.0（需.NET 4.0）" description="微软的游戏开发框架分发给用户的支持包。安装了这一软件包后才能运行XNA工作室开发的游戏。" size = "6.72 MB" link ="http://xthj.3dmgame.com/xnafx40_redist.msi" md5 = "97C2EEBB30C5A88C68C8F24F37183F1D"  recommend = "1" depend="NDP462-KB3151800-x86-x64-AllOS-ENU.exe">
+    <Vars varRun = "/qn" var1 = "Microsoft XNA Framework Redistributable 4.0"/>
+    <GUID id1="{2BFC7AA0-544C-4E3A-8796-67F3BE655BE9}"/>
+  </File_vclib>
+  <File_vclib pic = "Game_for_Windows.jpeg" name = "Game for Windows - LIVE 3.5.95.0(微软游戏平台)" description = "是由微软发行的官方多人在线游戏的一个客户端" size = "70.4 MB" link = "http://xthj.3dmgame.com/gfwlivesetup.exe" md5 = "FA5C710C461CD9509F1F15DC77FFFFEA" recommend = "0" depend="">
+    <Vars varRun = "/q" var1 = "Microsoft Games for Windows - LIVE Redistributable"/>
+    <GUID id1="{F2508213-9989-4E85-A078-72BE483917EF}"/>
+  </File_vclib>
+</config_3dm>
